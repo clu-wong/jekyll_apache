@@ -84,3 +84,9 @@ docker run -d -P --volumes-from clu_blog clu_wong/apache2:v1
 ```
 
 docker ps查看镜像的端口映射，然后本地访问该端口号。
+
+
+#### 注意 
+```
+会出现 bootstrap的静态文件加载不上的问题，已知是jekyll的编译出来的问题，属于静态资源的问题，不在讨论范围内，可以替换成任意静态站点
+```
